@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 50%;
+    padding: 35px 20px;
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+
+ul{
+float: right;
+margin: -100px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+    
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    
+    transition: 0.6s else;
+}
+
+ul li a:hover{
+    color: lightcoral;
+
+}
+
+ul li .ButtonWapper .btn{
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    background-color: red;
+    border: none;
+    margin: 15px;
+    padding:15px;
+}
+
+.Description .title{
+    margin: 20px;
+    font-size: 28px;
+
+}
+.Description .prah {
+    padding-left: 35px;
+    width: 30%;
+    font-size: 20px;
+    line-height: 30px;
+    font-family:Georgia, serif;
+    
+
+}
+
+.Description .Suzuki{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-top: -340px;
+    font-size: 28px;
+    border: 2px solid #fff;
+    padding-right: 800px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 5px solid rgba(1, 1, 1, 0.4);
+    border-color: #fff;
+    box-shadow:  0px 30px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+   
+}
+
+.Description .Suzuki .iconbox {
+    margin-top: 20px;
+    
+}
+.keyspe h1{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.keyspe h2{
+    font-size: 28px;
+}
